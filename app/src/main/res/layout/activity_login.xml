@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="20dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".LoginActivity"
+        android:fontFamily="@font/poppins">
+
+        <TextView
+            android:id="@+id/tv_login_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_page"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="-60dp"
+            android:layout_gravity="start"
+            android:textStyle="normal"
+            android:alpha="0"
+            tools:alpha="1"/>
+
+        <ImageView
+            android:id="@+id/iv_login_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:contentDescription="@string/indoquest_logo"
+            app:srcCompat="@drawable/indoquest_logo"
+            android:alpha="0"
+            tools:alpha="1"/>
+
+        <TextView
+            android:id="@+id/tv_login_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_subtitle_page"
+            android:textStyle="normal"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:alpha="0"
+            tools:alpha="1"/>
+
+        <com.example.indoquest.ui.customview.CustomEditText
+            android:id="@+id/ed_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:alpha="0"
+            tools:alpha="1"
+             />
+
+        <com.example.indoquest.ui.customview.CustomEditText
+            android:id="@+id/ed_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:alpha="0"
+            tools:alpha="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="70dp">
+
+            <CheckBox
+                android:id="@+id/cb_remember_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/remember_my_password"
+                android:alpha="0"
+                tools:alpha="1"
+                />
+
+            <TextView
+                android:id="@+id/tv_forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forgot_password"
+                android:layout_marginStart="54dp"
+                android:textStyle="italic"
+                android:alpha="0"
+                tools:alpha="1"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/button_login_signup_rounded"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/login"
+            android:alpha="0"
+            tools:alpha="1"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tv_dont_have_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/don_t_have_accout"
+                android:textColor="@color/black"
+                android:alpha="0"
+                tools:alpha="1"
+                />
+
+            <TextView
+                android:id="@+id/tv_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_up"
+                android:layout_marginStart="8dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue700"
+                android:alpha="0"
+                tools:alpha="1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

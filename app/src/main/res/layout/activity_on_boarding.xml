@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.onboarding.OnBoardingActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/screenPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+    </androidx.viewpager.widget.ViewPager>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentTop="true">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_indicator"
+            android:layout_width="370dp"
+            android:layout_height="3dp"
+            android:background="@android:color/transparent"
+            app:tabBackground="@drawable/indicator_selector"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="40dp"
+            app:tabIndicatorHeight="0dp"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="36dp"
+        android:drawableEnd="@drawable/ic_btn_arrow"
+        android:text="@string/next"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins"
+        android:textColor="#F4E869"
+        />
+</RelativeLayout>

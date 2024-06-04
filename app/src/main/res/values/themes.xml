@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.IndoQuest" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue600</item>
+        <item name="colorPrimaryVariant">@color/blue800</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue500</item>
+        <item name="colorSecondaryVariant">@color/blue300</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <!--Splash Screen section-->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Theme.IndoQuest" parent="Base.Theme.IndoQuest" />
+</resources>

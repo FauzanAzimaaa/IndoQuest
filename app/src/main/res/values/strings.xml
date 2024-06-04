@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">IndoQuest</string>
+
+    <!--    Bottom Navigation Title-->
+    <string name="title_home">Home</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_hidden_gem">HiddenGem</string>
+    <string name="title_quest_share">QuestShare</string>
+    <string name="title_profile">Profile</string>
+
+    <!--    Button next title-->
+    <string name="next">next</string>
+
+    <!--    Onboarding Title-->
+    <string name="title_onboarding_1">Explorasi Keindahan Bali Bersama Kami</string>
+
+    <!--  Login & SignUp Page Section  -->
+    <string name="title_page">Welcome to</string>
+    <string name="login_subtitle_page">Login to your account
+    and start planning your travel route.</string>
+    <string name="signup_subtitle_page">Create your new account
+    and start a wonderful journey.</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="remember_my_password">Remember my password</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_accout">Don\'t have account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="indoquest_logo">indoquest logo</string>
+</resources>

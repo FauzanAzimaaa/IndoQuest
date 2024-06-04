@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Blue-->
+    <color name="blue50">#F2F8FD</color>
+    <color name="blue100">#E5EFF9</color>
+    <color name="blue200">#C5DEF2</color>
+    <color name="blue300">#91C2E8</color>
+    <color name="blue400">#57A3D9</color>
+    <color name="blue500">#3085C3</color>
+
+    <!--Logo Background color-->
+    <color name="blue600">#216BA8</color>
+
+    <color name="blue700">#1C5688</color>
+    <color name="blue800">#1B4971</color>
+    <color name="blue900">#1C3F5E</color>
+    <color name="blue950">#12283F</color>
+
+    <!-- Yellow-->
+    <color name="yellow50">#FDFCE9</color>
+    <color name="yellow100">#FBFAC6</color>
+    <color name="yellow200">#F7F291</color>
+
+    <!-- Logo Background color -->
+    <color name="yellow300">#F4E869</color>
+    <color name="yellow400">#EDD322</color>
+    <color name="yellow500">#DDBB15</color>
+    <color name="yellow600">#BE9310</color>
+    <color name="yellow700">#986A10</color>
+    <color name="yellow800">#7E5515</color>
+    <color name="yellow900">#6B4518</color>
+    <color name="yellow950">#3E240A</color>
+
+    <!--    Grey-->
+    <color name="grey50">#F7F7F7</color>
+    <color name="grey100">#EDEDED</color>
+    <color name="grey200">#DFDFDF</color>
+    <color name="grey300">#C6C6C6</color>
+    <color name="grey400">#ADADAD</color>
+    <color name="grey500">#999999</color>
+    <color name="grey600">#888888</color>
+    <color name="grey700">#7B7B7B</color>
+    <color name="grey800">#676767</color>
+    <color name="grey900">#545454</color>
+    <color name="grey950">#363636</color>
+</resources>
